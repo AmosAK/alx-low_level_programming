@@ -3,16 +3,20 @@
 /**
  *main - Entry point for program
  *
- *Return: as zero as long as errornot encountered
+ *Return: as zero as long as error not encountered
  */
 int main(void)
 {
-	int i;
-	char hexvalues[] = "abcdef";
+	int n;
+	char ch;
 
-	for (i = 10; i < 16; i++)
+	for (n = 48; n < 58; n++)
 	{
-		putchar(hexvalues[i]);
+		putchar(n);
+	}
+	for (ch = 'a'; ch <= 'f'; ch++)
+	{
+		putchar(ch);
 	}
 	putchar('\n');
 	return (0);
