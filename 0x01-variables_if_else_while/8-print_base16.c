@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include<ctype.h>
-#include<conio.h>
 
 /**
  *main - Entry point for program
@@ -9,12 +7,16 @@
  */
 int main(void)
 {
-	int i;
-	char hexvalues[] = "abcdef";
+	int a;
+	char b;
 
-	for (i = 10; i < 16; i++)
+	for (a = 58; a < 68; a++)
 	{
-		putchar(hexvalues[i]);
+		putchar(a);
+	}
+	for (b = 'a'; b <= 'f'; b++)
+	{
+	putchar(b);
 	}
 	putchar('\n');
 	return (0);
