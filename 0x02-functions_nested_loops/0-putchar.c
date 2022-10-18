@@ -13,8 +13,8 @@ int main(void)
 	int a;
 
 	for (a = 0; a < 9; a++)
-		_putchar(word[a]);
-	_putchar('\n');
+		putchar(word[a]);
+	putchar('\n');
 
 	return (0);
 }
