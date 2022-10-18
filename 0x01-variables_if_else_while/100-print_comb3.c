@@ -1,24 +1,24 @@
 #include <stdio.h>
-#include <unistd.h>
 
 /**
- *main - Entry point
+ *main- Entry point
  *
- *Return - Always return to zero if no error is encountered
+ *Return: Always return to zero if no error is encountered
  */
 int main(void)
 {
-	int a, b;
+	int a;
+	int b;
 
-	for (a = 10; a <= 18; a++)
+	for (a = '0'; a <= '9'; a++)
 	{
-		for (b = 11; b <= 19; b++)
+		for (b = '0'; b <= '9'; b++)
 		{
 			if (a < b)
 			{
 				putchar(a);
 				putchar(b);
-				if (a != 18 || b != 19)
+				if (a != '8' || b != '9')
 				{
 					putchar(',');
 					putchar(' ');
