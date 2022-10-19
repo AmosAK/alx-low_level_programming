@@ -8,9 +8,5 @@
 int _islower(int c)
 {
 	for (c = 'a'; c <= 'z'; c++)
-	{
-		for (c = 'A'; c <= 'Z'; c++)
-			return (0);
-	}
 	return (1);
 }
