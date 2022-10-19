@@ -1,8 +1,5 @@
 #include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-#include <unistd.h>
-#include "main.h"
+
 
 /**
  *main- Entry point
@@ -14,7 +11,9 @@ int main(void)
 	char i;
 
 	for (i = 'a'; i <= 'z'; i++)
+	{
 		putchar(i);
+	}
 	putchar('\n');
 	return (0);
 }
