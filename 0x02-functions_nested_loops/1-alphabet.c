@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
 #include <unistd.h>
 #include "main.h"
 
@@ -8,11 +11,10 @@
  */
 int main(void)
 {
-	char word[15] = "print_alphabet()";
-	int i;
+	char i;
 
-	for (i = 0; i < 15; i++)
-		putchar(word[i]);
-	putchar("\n");
+	for (i = 'a'; i <= 'z'; i++)
+		putchar(i);
+	putchar('\n');
 	return (0);
 }
