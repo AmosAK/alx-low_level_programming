@@ -1,17 +1,17 @@
-#include <stdio.h>
-
+#include "main.h"
 
 /**
- *main- Entry point
+ * print_alphabet - Prints alphabets in all lowercases followed by new line
  *
- *Return: Always return to zero if no error
+ * Return: Always return to zero if no error
  */
-int main(void)
+void print_alphabet(void)
 {
 	char i;
 
 	for (i = 'a'; i <= 'z'; i++)
+	{
 		putchar(i);
+	}
 	putchar('\n');
-	return (0);
 }
